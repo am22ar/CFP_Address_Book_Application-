@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.address_book_development.AddressBookDevelopmentApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.182 s - in com.address_book_development.AddressBookDevelopmentApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.799 s - in com.address_book_development.AddressBookDevelopmentApplicationTests
