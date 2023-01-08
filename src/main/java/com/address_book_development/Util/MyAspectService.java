@@ -1,6 +1,5 @@
 package com.address_book_development.Util;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -15,7 +14,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyAspectService {
 
-    Logger log = LoggerFactory.getLogger(MyAspectService.class);
+    Logger logger = LoggerFactory.getLogger(MyAspectService.class);
 
     @Pointcut(value = "execution(* com.address_book_development.*.*.*(..))")
     public void myPointCut(){}
