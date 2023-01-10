@@ -14,15 +14,9 @@
     <name>Address_Book_Development</name>
     <description>Address_Book_Development</description>
     <properties>
-<<<<<<< HEAD
-        <java.version>1.8</java.version>
-=======
-        <java.version>1.8</java.version>
->>>>>>> 4f08756588c35f5f597228970335f963fe82b5c5
 
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <maven.compiler.source>1.8</maven.compiler.source>
-            <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>1.8</java.version>
+
 
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
             <maven.compiler.source>1.8</maven.compiler.source>
