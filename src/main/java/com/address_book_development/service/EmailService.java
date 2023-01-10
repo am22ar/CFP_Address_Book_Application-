@@ -2,16 +2,18 @@ package com.address_book_development.service;
 
 import com.address_book_development.dto.ResponseDto;
 import com.address_book_development.model.EmailModel;
-import jakarta.mail.*;
-import jakarta.mail.internet.InternetAddress;
-import jakarta.mail.internet.MimeMessage;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
-@Service
+@Component
 public class EmailService implements IEmailService{
         @Override
         public ResponseEntity<ResponseDto> sendEmail(EmailModel

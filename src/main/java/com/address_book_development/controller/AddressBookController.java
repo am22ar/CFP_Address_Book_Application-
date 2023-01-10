@@ -9,13 +9,13 @@ import com.address_book_development.model.AddressBookModel;
 import com.address_book_development.model.EmailModel;
 import com.address_book_development.service.IAddressBookService;
 import com.address_book_development.service.IEmailService;
-import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,8 +1,10 @@
 package com.address_book_development.dto;
 
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Pattern;
+
 import lombok.AllArgsConstructor;
+
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Pattern;
 
 @AllArgsConstructor
 public class AddressBookDto {
